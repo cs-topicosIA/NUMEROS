@@ -1,0 +1,38 @@
+train-images
+
+0000    int              60000  numero_de_imagenes
+0004    int              28  numero_de_filas
+0008    int              28  numero_de_columnas
+0012    unsigned char    ??  pixel                 // del 0 al 255
+0013    unsigned char    ??  pixel                 // del 0 al 255
+0014    unsigned char    ??  pixel                 // del 0 al 255
+...
+
+train-labels
+
+0000    int              60000  numero_de_etiquetas
+0004    unsigned char    ??     etiqueta            // del 0 al 9
+0005    unsigned char    ??     etiqueta            // del 0 al 9
+0006    unsigned char    ??     etiqueta            // del 0 al 9
+...
+
+----------------------------------------------------------------------
+
+t10k-images
+
+0000    int              10000  numero_de_imagenes
+0004    int              28  numero_de_filas
+0008    int              28  numero_de_columnas
+0012    unsigned char    ??  pixel                 // del 0 al 255
+0013    unsigned char    ??  pixel                 // del 0 al 255
+0014    unsigned char    ??  pixel                 // del 0 al 255
+...
+
+t10k-labels
+
+0000    int              10000  numero_de_etiquetas
+0004    unsigned char    ??     etiqueta            // del 0 al 9
+0005    unsigned char    ??     etiqueta            // del 0 al 9
+0006    unsigned char    ??     etiqueta            // del 0 al 9
+...
+
